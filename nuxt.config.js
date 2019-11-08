@@ -49,12 +49,12 @@ export default {
     "display": 'standalone',
     "icons": [
       {
-        "src": "@/assets/PWAIcon.png",
+        "src": "@/assets/icon.png",
         "type": "image/png",
-        "sizes": "128x128"
+        "sizes": "144x144"
       }
     ],
-    "start_url": "/maps/?source=pwa",
+    "start_url": "https://compassionate-lamport-e325b0.netlify.com/?source=pwa",
     "background_color": "#3367D6",
   },
   // workbox: {
